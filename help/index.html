@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>BELSMUN Live Support</title>
+    <!-- Start of Async Drift Code -->
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('dp9y9rgiiei6');
+    </script>
+    <!-- End of Async Drift Code -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <style>
+    
+        body {
+            
+            font-family: 'Open Sans', sans-serif;
+            
+        }
+        
+        .welcome-text{
+            
+            color: aqua;
+            font-size: 150px;
+            
+        }
+        
+        .instruction {
+            
+            color: skyblue;
+            font-size: 75px;
+            
+        }
+        
+        .arrow{
+            
+            height: 130px;
+            float: right;
+            position: absolute;
+            right: 100px;
+            bottom: 30px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <p class="welcome-text">Welcome to BELSMUN.</p>
+    <p class="instruction">Click the chat button in the corner to get started.</p>
+    <img src="https://belsmun.ml/img/belsmun_livechat_arrow.png" class="arrow">
+    
+</body>
+</html>
